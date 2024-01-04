@@ -1,0 +1,24 @@
+/******************API ERROR CODES **************************/
+ const HTTP_OK = 200;
+ const HTTP_UNAUTHORIZED = 401;
+ const HTTP_FORBIDDEN = 403;
+ const HTTP_NOT_FOUND = 404;
+ const HTTP_METHOD_NOT_ALLOWED = 405;
+ const HTTP_BLANK = 407;
+ const HTTP_INVALID = 411;
+ const HTTP_NOT_ACCEPTABLE = 406;
+ const HTTP_SERVER_ERROR = 500;
+
+
+module.exports = {
+    HTTP_OK,
+    HTTP_UNAUTHORIZED,
+    HTTP_FORBIDDEN,
+    HTTP_NOT_FOUND,
+    HTTP_METHOD_NOT_ALLOWED,
+    HTTP_BLANK,
+    HTTP_INVALID,
+    HTTP_NOT_ACCEPTABLE,
+    HTTP_SERVER_ERROR
+
+}
