@@ -25,7 +25,7 @@ module.exports = function (teenpatti_socket, request, timer) {
 
                     var options = {
                         'method': 'POST',
-                        'url': 'https://games.androappstech.in/api/game/get_table',
+                        'url': 'https://admintesting.rahibet.com/api/game/get_table',
                         'headers': {
                         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -72,7 +72,7 @@ module.exports = function (teenpatti_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://games.androappstech.in/api/game/get_customise_table',
+                        'url': 'https://admintesting.rahibet.com/api/game/get_customise_table',
                         'headers': {
                         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -117,7 +117,7 @@ module.exports = function (teenpatti_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://games.androappstech.in/api/game/get_private_table',
+                        'url': 'https://admintesting.rahibet.com/api/game/get_private_table',
                         'headers': {
                         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -161,7 +161,7 @@ module.exports = function (teenpatti_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://games.androappstech.in/api/game/join_table',
+                        'url': 'https://admintesting.rahibet.com/api/game/join_table',
                         'headers': {
                         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -204,7 +204,7 @@ module.exports = function (teenpatti_socket, request, timer) {
                 var userData = user.toJSON();
                 var options = {
                     'method': 'POST',
-                    'url': 'https://games.androappstech.in/api/game/start_game',
+                    'url': 'https://admintesting.rahibet.com/api/game/start_game',
                     'headers': {
                     'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                     'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -259,7 +259,7 @@ module.exports = function (teenpatti_socket, request, timer) {
                     
                     var options = {
                         'method': 'POST',
-                        'url': 'https://games.androappstech.in/api/game/chaal',
+                        'url': 'https://admintesting.rahibet.com/api/game/chaal',
                         'headers': {
                         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -317,7 +317,7 @@ module.exports = function (teenpatti_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://games.androappstech.in/api/game/show_game',
+                        'url': 'https://admintesting.rahibet.com/api/game/show_game',
                         'headers': {
                         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -364,7 +364,7 @@ module.exports = function (teenpatti_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://games.androappstech.in/api/game/do_slide_show',
+                        'url': 'https://admintesting.rahibet.com/api/game/do_slide_show',
                         'headers': {
                         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -406,7 +406,7 @@ module.exports = function (teenpatti_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://games.androappstech.in/api/game/slide_show',
+                        'url': 'https://admintesting.rahibet.com/api/game/slide_show',
                         'headers': {
                         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -446,7 +446,7 @@ module.exports = function (teenpatti_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://games.androappstech.in/api/game/switch_table',
+                        'url': 'https://admintesting.rahibet.com/api/game/switch_table',
                         'headers': {
                         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -485,7 +485,7 @@ module.exports = function (teenpatti_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://games.androappstech.in/api/game/see_card',
+                        'url': 'https://admintesting.rahibet.com/api/game/see_card',
                         'headers': {
                         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -525,7 +525,7 @@ module.exports = function (teenpatti_socket, request, timer) {
             var userData = user.toJSON();
             var options = {
                 'method': 'POST',
-                'url': 'https://games.androappstech.in/api/game/leave_table',
+                'url': 'https://admintesting.rahibet.com/api/game/leave_table',
                 'headers': {
                 'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                 'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -567,7 +567,7 @@ module.exports = function (teenpatti_socket, request, timer) {
             var userData = user.toJSON();
             var options = {
                 'method': 'POST',
-                'url': 'https://games.androappstech.in/api/game/pack_game',
+                'url': 'https://admintesting.rahibet.com/api/game/pack_game',
                 'headers': {
                 'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                 'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -609,7 +609,7 @@ module.exports = function (teenpatti_socket, request, timer) {
                 var userData = user.toJSON();
                 var options = {
                     'method': 'POST',
-                    'url': 'https://games.androappstech.in/api/game/tip',
+                    'url': 'https://admintesting.rahibet.com/api/game/tip',
                     'headers': {
                     'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                     'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -651,7 +651,7 @@ module.exports = function (teenpatti_socket, request, timer) {
                 var userData = user.toJSON();
                 var options = {
                     'method': 'POST',
-                    'url': 'https://games.androappstech.in/api/game/chat',
+                    'url': 'https://admintesting.rahibet.com/api/game/chat',
                     'headers': {
                     'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                     'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -687,7 +687,7 @@ module.exports = function (teenpatti_socket, request, timer) {
         function autochaal(room_id){
             var options = {
                 'method': 'GET',
-                'url': 'https://games.androappstech.in/api/cron/teenpatti_socket/'+room_id
+                'url': 'https://admintesting.rahibet.com/api/cron/teenpatti_socket/'+room_id
             };
             request(options, function (error, response) {
                 if (error) throw new Error(error);
