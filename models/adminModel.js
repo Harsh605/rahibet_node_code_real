@@ -154,6 +154,9 @@ module.exports = (sequelize, DataTypes) => {
         contact_us: {
             type: DataTypes.STRING,
         },
+        upi_payment_api_key: {
+            type: DataTypes.STRING,
+        },
         
         
        

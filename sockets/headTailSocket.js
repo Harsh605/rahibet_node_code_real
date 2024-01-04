@@ -11,7 +11,7 @@ module.exports = function (head_tail_socket, request) {
             // Create Game
             var options = {
                 'method': 'GET',
-                'url': 'http://64.227.186.5/letscard/api/cron/head_tail_create_socket'
+                'url': 'https://admintesting.rahibet.com/letscard/api/cron/head_tail_create_socket'
             };
             request(options, function (error, response) {
                 if (error) throw new Error(error);
@@ -42,7 +42,7 @@ module.exports = function (head_tail_socket, request) {
             // Make Winner
             var options = {
                 'method': 'GET',
-                'url': 'http://64.227.186.5/letscard/api/cron/head_tail_winner_socket'
+                'url': 'https://admintesting.rahibet.com/letscard/api/cron/head_tail_winner_socket'
             };
             request(options, function (error, response) {
                 if (error) throw new Error(error);
@@ -52,7 +52,7 @@ module.exports = function (head_tail_socket, request) {
                 // Send Status
                 var options = {
                     'method': 'POST',
-                    'url': 'http://64.227.186.5/letscard/api/headTail/get_active_game_socket',
+                    'url': 'https://admintesting.rahibet.com/letscard/api/headTail/get_active_game_socket',
                     'headers': {
                         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=2g8l0mfnnlcim6jp1lthsivp6583rli8'
@@ -79,7 +79,7 @@ module.exports = function (head_tail_socket, request) {
                         // Create Game
                         var options = {
                             'method': 'GET',
-                            'url': 'http://64.227.186.5/letscard/api/cron/head_tail_create_socket'
+                            'url': 'https://admintesting.rahibet.com/letscard/api/cron/head_tail_create_socket'
                         };
                         request(options, function (error, response) {
                             if (error) throw new Error(error);
@@ -90,7 +90,7 @@ module.exports = function (head_tail_socket, request) {
                         // Send Status
                         var options = {
                             'method': 'POST',
-                            'url': 'http://64.227.186.5/letscard/api/headTail/get_active_game_socket',
+                            'url': 'https://admintesting.rahibet.com/letscard/api/headTail/get_active_game_socket',
                             'headers': {
                                 'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                                 'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=2g8l0mfnnlcim6jp1lthsivp6583rli8'
@@ -123,7 +123,7 @@ module.exports = function (head_tail_socket, request) {
                 // Send Status
                 var options = {
                     'method': 'POST',
-                    'url': 'http://64.227.186.5/letscard/api/headTail/get_active_game_socket',
+                    'url': 'https://admintesting.rahibet.com/letscard/api/headTail/get_active_game_socket',
                     'headers': {
                         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=2g8l0mfnnlcim6jp1lthsivp6583rli8'
