@@ -49,7 +49,7 @@ module.exports = function (rummy_socket, request, timer) {
 
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/get_table',
+                        'url': 'https://admin.rahibet.com/api/rummy/get_table',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -78,7 +78,7 @@ module.exports = function (rummy_socket, request, timer) {
                             // var userData = user.toJSON();
                             var options = {
                                 'method': 'POST',
-                                'url': 'https://admintesting.rahibet.com/api/rummy/start_game',
+                                'url': 'https://admin.rahibet.com/api/rummy/start_game',
                                 'headers': {
                                     'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                                     'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -125,7 +125,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/get_private_table',
+                        'url': 'https://admin.rahibet.com/api/rummy/get_private_table',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -169,7 +169,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/join_table',
+                        'url': 'https://admin.rahibet.com/api/rummy/join_table',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -211,7 +211,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/join_table_with_code',
+                        'url': 'https://admin.rahibet.com/api/rummy/join_table_with_code',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -254,7 +254,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/start_game',
+                        'url': 'https://admin.rahibet.com/api/rummy/start_game',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -300,7 +300,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/leave_table',
+                        'url': 'https://admin.rahibet.com/api/rummy/leave_table',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -341,7 +341,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/pack_game',
+                        'url': 'https://admin.rahibet.com/api/rummy/pack_game',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -381,7 +381,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/my_card',
+                        'url': 'https://admin.rahibet.com/api/rummy/my_card',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -419,7 +419,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/my_card',
+                        'url': 'https://admin.rahibet.com/api/rummy/my_card',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -463,7 +463,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/card_value',
+                        'url': 'https://admin.rahibet.com/api/rummy/card_value',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -509,7 +509,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/drop_card',
+                        'url': 'https://admin.rahibet.com/api/rummy/drop_card',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -560,7 +560,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/get_card',
+                        'url': 'https://admin.rahibet.com/api/rummy/get_card',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -598,7 +598,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/get_drop_card',
+                        'url': 'https://admin.rahibet.com/api/rummy/get_drop_card',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -637,7 +637,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/declare',
+                        'url': 'https://admin.rahibet.com/api/rummy/declare',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -677,7 +677,7 @@ module.exports = function (rummy_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admintesting.rahibet.com/api/rummy/declare_back',
+                        'url': 'https://admin.rahibet.com/api/rummy/declare_back',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -713,7 +713,7 @@ module.exports = function (rummy_socket, request, timer) {
     function autochaal(room_id){
         var options = {
             'method': 'GET',
-            'url': 'https://admintesting.rahibet.com/api/cron/rummy_socket/'+room_id
+            'url': 'https://admin.rahibet.com/api/cron/rummy_socket/'+room_id
         };
         request(options, function (error, response) {
             if (error) throw new Error(error);
