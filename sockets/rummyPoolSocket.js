@@ -24,7 +24,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
 
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/get_table',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/get_table',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -51,7 +51,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                         if(numClients>1){
                             var options = {
                                 'method': 'POST',
-                                'url': 'https://admin.rahibet.com/api/rummyPool/start_game',
+                                'url': 'https://admin.luckystar365.in/api/rummyPool/start_game',
                                 'headers': {
                                     'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                                     'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -97,7 +97,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/get_private_table',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/get_private_table',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -141,7 +141,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/join_table',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/join_table',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -183,7 +183,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/join_table_with_code',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/join_table_with_code',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -225,7 +225,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/start_game',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/start_game',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -271,7 +271,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/leave_table',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/leave_table',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -313,7 +313,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/pack_game',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/pack_game',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -353,7 +353,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/my_card',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/my_card',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -390,7 +390,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/my_card',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/my_card',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -433,7 +433,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/card_value',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/card_value',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -479,7 +479,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/drop_card',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/drop_card',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -530,7 +530,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/get_card',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/get_card',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -568,7 +568,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/get_drop_card',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/get_drop_card',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -607,7 +607,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/declare',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/declare',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -647,7 +647,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
                     var userData = user.toJSON();
                     var options = {
                         'method': 'POST',
-                        'url': 'https://admin.rahibet.com/api/rummyPool/declare_back',
+                        'url': 'https://admin.luckystar365.in/api/rummyPool/declare_back',
                         'headers': {
                             'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
@@ -679,7 +679,7 @@ module.exports = function (rummy_pool_socket, request, timer) {
     function autochaal(room_id){
         var options = {
             'method': 'GET',
-            'url': 'https://admin.rahibet.com/api/cron/rummy_pool_socket/'+room_id
+            'url': 'https://admin.luckystar365.in/api/cron/rummy_pool_socket/'+room_id
         };
         request(options, function (error, response) {
             if (error) throw new Error(error);
